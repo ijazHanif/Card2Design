@@ -23,7 +23,7 @@ const Card2 = () => {
   return (
     <div className="flex justify-center relative">
       <div className="relative w-full sm:w-[90%] md:w-full lg:w-[50%] xl:w-[40%] mx-auto">
-        <Image src={compo2card} alt="" className="w-full h-auto object-cover" />
+        <Image src={compo2card} alt="" className="w-full h-screen object-cover" />
         <div className="absolute inset-0 flex flex-col items-center justify-end bg-[#7C292957] py-10">
           <div className="text-center py-5 w-full pb-10">
             <h1 className={`${caladea.className} text-[24px] text-white`}>
