@@ -17,7 +17,7 @@ const arr = [
     },
     fontsize: {
       text1: "24px",
-      text2: "11px",
+      text2: "20px",
       text3: "24px",
     },
     style: "italic",
@@ -35,7 +35,7 @@ const arr = [
     fontsize: {
       text1: "64px",
       text2: "",
-      text3: "16px",
+      text3: "18px",
     },
     style: "italic",
   },
@@ -43,7 +43,7 @@ const arr = [
 
 const Card1 = () => {
   return (
-    <div className="grid grid-cols-1 gap-4 w-full">
+    <div className="grid grid-cols-1 w-full">
       {arr.map((item, index) => (
         <div
           key={index}
